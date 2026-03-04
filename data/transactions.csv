@@ -1,0 +1,945 @@
+user_id,transaction_amount,transaction_type,timestamp,merchant_category,payment_method,location,device_type
+u1,111.4,income,2025-10-21T23:01:03.513191,freelance,Bank Transfer,Seattle,iOS
+u1,92.4,expense,2025-11-03T17:53:58.513191,subscriptions,Card,Seattle,iOS
+u1,77.1,income,2025-11-05T00:52:30.513191,freelance,Wallet,Seattle,Android
+u1,3.44,expense,2025-11-11T13:15:46.513191,transport,Bank Transfer,Seattle,iOS
+u1,35.83,expense,2025-11-24T04:53:41.513191,shopping,Bank Transfer,Seattle,Web
+u1,28.99,expense,2025-11-28T00:51:58.513191,utilities,Card,Seattle,Android
+u1,86.67,expense,2025-12-08T09:10:08.513191,fuel,Card,Seattle,iOS
+u1,19.77,expense,2026-01-21T00:10:06.513191,groceries,Card,Seattle,iOS
+u1,56.76,expense,2026-01-21T21:06:59.513191,healthcare,ACH,Seattle,iOS
+u1,89.65,income,2026-01-22T15:38:37.513191,tip,Card,Seattle,Web
+u1,23.78,expense,2026-02-01T09:39:22.513191,transport,Card,Seattle,Android
+u1,101.44,income,2026-02-11T20:49:58.513191,rideshare,Card,Seattle,Android
+u1,102.87,expense,2026-02-18T14:45:45.513191,fuel,Wallet,Seattle,iOS
+u1,61.83,expense,2026-02-18T17:57:59.513191,shopping,Bank Transfer,Seattle,iOS
+u1,63.71,expense,2026-02-20T19:25:16.513191,subscriptions,ACH,Seattle,iOS
+u1,94.26,expense,2026-02-20T21:25:28.513191,subscriptions,Wallet,Seattle,Web
+u10,145.87,expense,2025-10-14T05:24:38.513191,utilities,ACH,Miami,iOS
+u10,108.99,expense,2025-10-22T19:44:20.513191,fuel,ACH,Miami,iOS
+u10,34.48,expense,2025-11-07T13:31:15.513191,groceries,Card,Miami,Android
+u10,31.95,expense,2025-11-16T06:34:24.513191,groceries,Card,Miami,iOS
+u10,88.93,expense,2025-11-16T18:29:53.513191,healthcare,Card,Miami,Android
+u10,6.46,expense,2025-11-22T02:36:50.513191,groceries,Card,Miami,Web
+u10,20.4,expense,2025-11-23T15:33:29.513191,dining,Wallet,Miami,Web
+u10,23.28,expense,2025-11-26T23:50:08.513191,transport,ACH,Miami,Android
+u10,16.92,expense,2025-12-07T15:09:57.513191,dining,Wallet,Miami,Android
+u10,46.19,expense,2025-12-07T19:05:13.513191,shopping,ACH,Miami,Android
+u10,23.98,expense,2025-12-12T17:54:40.513191,transport,Card,Miami,Android
+u10,35.36,expense,2025-12-15T04:40:50.513191,transport,Cash,Miami,Android
+u10,197.19,expense,2025-12-15T22:15:43.513191,utilities,Card,Miami,Android
+u10,105.05,expense,2025-12-18T18:54:25.513191,healthcare,Bank Transfer,Miami,iOS
+u10,14.79,expense,2025-12-18T21:52:13.513191,mobile_topup,ACH,Miami,iOS
+u10,86.1,expense,2025-12-19T10:07:00.513191,shopping,Bank Transfer,Miami,Android
+u10,19.2,expense,2026-01-01T11:31:27.513191,dining,Card,Miami,Android
+u10,18.55,expense,2026-01-14T00:11:57.513191,dining,ACH,Miami,iOS
+u10,73.04,expense,2026-01-21T03:49:28.513191,healthcare,Cash,Miami,Web
+u10,7.44,expense,2026-01-23T04:42:49.513191,transport,Bank Transfer,Miami,Web
+u10,14.95,expense,2026-01-24T01:27:18.513191,fees,Bank Transfer,Miami,Web
+u10,134.0,expense,2026-02-02T11:01:25.513191,healthcare,Bank Transfer,Miami,Android
+u10,27.56,expense,2026-02-10T03:51:31.513191,mobile_topup,ACH,Miami,iOS
+u10,115.49,expense,2026-02-12T08:18:56.513191,fuel,ACH,Miami,iOS
+u10,99.28,expense,2026-02-17T06:37:05.513191,utilities,Wallet,Miami,Android
+u10,111.95,expense,2026-03-03T05:47:27.513191,subscriptions,ACH,Miami,Android
+u11,24.61,expense,2025-10-11T18:15:58.513191,groceries,Wallet,Chicago,iOS
+u11,38.63,expense,2025-10-16T04:12:02.513191,shopping,Card,Chicago,iOS
+u11,95.46,expense,2025-10-21T14:57:06.513191,healthcare,Card,Chicago,iOS
+u11,31.44,expense,2025-10-22T07:00:48.513191,groceries,Card,Chicago,iOS
+u11,108.78,expense,2025-10-23T00:14:25.513191,fuel,Card,Chicago,iOS
+u11,20.64,expense,2025-11-05T05:39:06.513191,fees,Card,Chicago,Android
+u11,12.73,expense,2025-11-10T16:02:36.513191,mobile_topup,ACH,Chicago,iOS
+u11,80.6,expense,2025-12-04T03:25:53.513191,healthcare,Card,Chicago,Android
+u11,161.29,expense,2025-12-04T10:32:38.513191,healthcare,ACH,Chicago,iOS
+u11,32.7,expense,2025-12-07T08:03:27.513191,mobile_topup,ACH,Chicago,iOS
+u11,37.66,expense,2025-12-16T16:45:50.513191,transport,ACH,Chicago,iOS
+u11,183.7,expense,2025-12-24T14:37:16.513191,utilities,Cash,Chicago,iOS
+u11,17.75,expense,2025-12-25T16:14:31.513191,fees,Card,Chicago,iOS
+u11,11.93,expense,2026-01-08T18:30:47.513191,fees,Cash,Chicago,iOS
+u11,64.02,expense,2026-01-09T06:36:03.513191,healthcare,Wallet,Chicago,iOS
+u11,174.4,expense,2026-01-17T13:08:30.513191,healthcare,Cash,Chicago,iOS
+u11,35.72,expense,2026-01-18T09:42:28.513191,shopping,Card,Chicago,Android
+u11,61.77,expense,2026-01-22T09:22:41.513191,utilities,Card,Chicago,Android
+u11,7.05,expense,2026-02-10T10:19:48.513191,dining,Card,Chicago,Android
+u11,5.04,expense,2026-02-20T16:17:51.513191,fees,Wallet,Chicago,iOS
+u11,25.17,expense,2026-02-21T16:40:32.513191,mobile_topup,Card,Chicago,Web
+u12,32.37,expense,2025-11-12T11:07:50.513191,utilities,Wallet,Miami,iOS
+u12,75.4,expense,2025-11-12T15:47:50.513191,utilities,ACH,Miami,iOS
+u12,70.08,expense,2025-12-01T02:24:11.513191,utilities,Cash,Miami,Android
+u12,142.94,income,2025-12-01T06:04:38.513191,task,Card,Miami,Android
+u12,86.34,income,2025-12-06T11:21:17.513191,task,ACH,Miami,Web
+u12,115.76,expense,2025-12-11T00:06:43.513191,shopping,Wallet,Miami,Android
+u12,174.83,expense,2025-12-13T01:05:20.513191,subscriptions,Bank Transfer,Miami,iOS
+u12,131.33,income,2025-12-23T13:27:46.513191,task,Card,Miami,iOS
+u12,111.8,income,2026-01-07T13:49:51.513191,rideshare,Wallet,Miami,iOS
+u12,6.78,expense,2026-01-09T01:23:52.513191,groceries,Bank Transfer,Miami,Web
+u12,8.67,expense,2026-01-13T14:00:01.513191,mobile_topup,Bank Transfer,Miami,iOS
+u12,100.75,expense,2026-01-13T18:12:46.513191,utilities,ACH,Miami,iOS
+u12,11.14,expense,2026-01-20T03:22:19.513191,groceries,Card,Miami,iOS
+u12,104.79,income,2026-01-20T05:56:20.513191,freelance,Bank Transfer,Miami,iOS
+u12,38.13,expense,2026-01-21T04:23:15.513191,shopping,Wallet,Miami,iOS
+u12,13.81,expense,2026-01-24T08:18:11.513191,transport,ACH,Miami,iOS
+u12,129.89,income,2026-01-29T23:57:09.513191,rideshare,Card,Miami,iOS
+u12,65.6,expense,2026-02-02T11:01:30.513191,utilities,Cash,Miami,iOS
+u12,8.43,expense,2026-02-06T03:29:15.513191,fees,Bank Transfer,Miami,Web
+u12,116.13,expense,2026-02-08T19:52:19.513191,shopping,Wallet,Miami,Android
+u12,13.11,expense,2026-02-10T18:51:50.513191,dining,Card,Miami,iOS
+u12,137.13,income,2026-02-17T00:42:53.513191,freelance,Cash,Miami,Web
+u12,27.69,expense,2026-02-21T16:58:33.513191,fuel,Wallet,Miami,iOS
+u13,7.98,expense,2025-10-12T13:17:33.513191,dining,Card,Boston,Android
+u13,30.87,expense,2025-10-13T12:07:14.513191,mobile_topup,Card,Boston,iOS
+u13,10.7,expense,2025-10-14T22:36:05.513191,transport,Card,Boston,Android
+u13,111.89,expense,2025-10-20T21:34:14.513191,shopping,Card,Boston,Web
+u13,167.99,income,2025-10-26T12:06:57.513191,tip,Bank Transfer,Boston,Android
+u13,37.37,expense,2025-11-05T11:39:34.513191,dining,Card,Boston,iOS
+u13,109.37,expense,2025-11-09T21:50:20.513191,healthcare,Card,Boston,iOS
+u13,102.67,expense,2025-11-09T21:53:09.513191,subscriptions,Wallet,Boston,iOS
+u13,34.54,expense,2025-11-13T02:35:23.513191,dining,Card,Boston,Android
+u13,35.12,expense,2025-11-18T13:22:30.513191,mobile_topup,Wallet,Boston,iOS
+u13,22.66,expense,2025-12-13T18:02:14.513191,fees,ACH,Boston,Web
+u13,70.9,expense,2025-12-19T09:51:46.513191,shopping,Card,Boston,iOS
+u13,32.77,expense,2025-12-24T19:02:39.513191,shopping,Card,Boston,iOS
+u13,20.69,expense,2025-12-31T05:13:53.513191,mobile_topup,ACH,Boston,Android
+u13,199.05,expense,2026-01-10T14:11:43.513191,subscriptions,Wallet,Boston,Android
+u13,21.36,expense,2026-01-18T21:12:04.513191,healthcare,ACH,Boston,iOS
+u13,82.42,expense,2026-01-28T02:57:40.513191,shopping,Wallet,Boston,iOS
+u13,11.75,expense,2026-02-01T07:05:07.513191,fees,ACH,Boston,Android
+u13,13.71,expense,2026-02-06T12:38:15.513191,shopping,Card,Boston,Android
+u13,24.26,expense,2026-02-12T22:14:47.513191,healthcare,Card,Boston,iOS
+u13,36.9,expense,2026-02-15T10:59:57.513191,transport,ACH,Boston,Android
+u14,171.17,expense,2025-10-12T19:36:58.513191,subscriptions,ACH,NYC,iOS
+u14,10.97,expense,2025-10-17T03:27:30.513191,shopping,Bank Transfer,NYC,iOS
+u14,30.56,expense,2025-10-21T03:54:42.513191,healthcare,Card,NYC,iOS
+u14,132.89,income,2025-10-23T22:21:46.513191,task,Card,NYC,iOS
+u14,8.87,expense,2025-10-27T11:51:55.513191,mobile_topup,Card,NYC,iOS
+u14,176.47,expense,2025-10-30T12:10:57.513191,healthcare,Card,NYC,iOS
+u14,47.79,expense,2025-10-31T01:32:50.513191,fuel,Wallet,NYC,Android
+u14,27.24,expense,2025-11-08T14:48:24.513191,fuel,Card,NYC,Android
+u14,33.09,expense,2025-11-14T06:05:52.513191,mobile_topup,Bank Transfer,NYC,Web
+u14,15.92,expense,2025-11-17T00:51:33.513191,fees,Wallet,NYC,iOS
+u14,150.74,expense,2025-11-23T03:55:05.513191,healthcare,ACH,NYC,iOS
+u14,6.08,expense,2025-12-17T06:14:10.513191,fees,Card,NYC,iOS
+u14,32.83,expense,2025-12-20T19:47:06.513191,mobile_topup,Card,NYC,Android
+u14,11.83,expense,2025-12-24T13:43:39.513191,groceries,Bank Transfer,NYC,Android
+u14,32.44,expense,2026-01-02T15:48:49.513191,healthcare,Card,NYC,iOS
+u14,28.34,expense,2026-01-08T05:41:36.513191,shopping,ACH,NYC,iOS
+u14,158.66,income,2026-01-14T03:23:23.513191,rideshare,Bank Transfer,NYC,Android
+u14,29.54,expense,2026-01-17T02:56:36.513191,dining,Cash,NYC,Web
+u14,152.27,expense,2026-02-11T14:36:23.513191,healthcare,Card,NYC,iOS
+u14,4.98,expense,2026-02-12T04:34:44.513191,mobile_topup,Bank Transfer,NYC,iOS
+u14,26.57,expense,2026-02-20T12:44:50.513191,groceries,Card,NYC,iOS
+u14,34.76,expense,2026-02-20T12:49:54.513191,transport,Card,NYC,Android
+u14,15.26,expense,2026-02-21T05:54:50.513191,fuel,Cash,NYC,Android
+u15,12.71,expense,2025-10-11T21:57:52.513191,transport,Card,Boston,Android
+u15,10.87,expense,2025-10-13T11:17:38.513191,shopping,ACH,Boston,Web
+u15,31.93,expense,2025-10-14T00:28:03.513191,transport,ACH,Boston,iOS
+u15,31.19,expense,2025-10-17T01:48:48.513191,groceries,Card,Boston,Web
+u15,20.8,expense,2025-10-20T13:33:26.513191,fees,Wallet,Boston,Web
+u15,10.43,expense,2025-10-25T15:56:05.513191,dining,ACH,Boston,iOS
+u15,110.06,income,2025-11-03T16:03:59.513191,tip,ACH,Boston,Web
+u15,7.88,expense,2025-11-18T01:49:48.513191,transport,Wallet,Boston,iOS
+u15,97.34,income,2025-11-26T19:35:29.513191,delivery,Card,Boston,Web
+u15,19.72,expense,2025-11-29T15:26:46.513191,groceries,Card,Boston,iOS
+u15,18.5,expense,2025-12-02T02:03:12.513191,transport,Wallet,Boston,Android
+u15,155.76,expense,2025-12-14T19:06:54.513191,healthcare,Wallet,Boston,iOS
+u15,20.45,expense,2025-12-16T17:18:43.513191,groceries,Cash,Boston,iOS
+u15,90.97,income,2025-12-18T17:44:48.513191,tip,Wallet,Boston,iOS
+u15,110.6,income,2025-12-23T08:07:50.513191,tip,ACH,Boston,iOS
+u15,101.89,income,2025-12-25T05:07:57.513191,delivery,Wallet,Boston,Web
+u15,17.58,expense,2025-12-30T03:05:21.513191,fees,Cash,Boston,iOS
+u15,36.84,expense,2025-12-30T12:30:46.513191,mobile_topup,Card,Boston,Android
+u15,39.89,expense,2026-01-10T12:28:11.513191,mobile_topup,ACH,Boston,Android
+u15,21.55,expense,2026-01-10T13:15:48.513191,fees,Bank Transfer,Boston,iOS
+u15,5.85,expense,2026-01-17T08:44:16.513191,mobile_topup,Card,Boston,iOS
+u15,8.83,expense,2026-01-19T06:47:05.513191,fees,Cash,Boston,Android
+u15,20.16,expense,2026-01-20T13:28:13.513191,groceries,ACH,Boston,Web
+u15,18.97,expense,2026-01-28T20:10:34.513191,fees,Card,Boston,Android
+u15,90.69,income,2026-02-02T12:17:35.513191,rideshare,Card,Boston,Android
+u15,29.11,expense,2026-02-10T10:13:07.513191,dining,Card,Boston,Android
+u15,87.51,income,2026-02-12T10:27:59.513191,tip,Card,Boston,Android
+u15,31.1,expense,2026-02-13T13:33:12.513191,groceries,Card,Boston,iOS
+u15,13.88,expense,2026-02-17T10:32:52.513191,fees,Cash,Boston,iOS
+u15,30.18,expense,2026-02-27T03:52:29.513191,mobile_topup,Card,Boston,iOS
+u15,58.75,expense,2026-03-03T03:48:32.513191,fuel,ACH,Boston,iOS
+u16,167.1,expense,2025-10-24T03:41:43.513191,utilities,Wallet,Chicago,Android
+u16,89.9,expense,2025-11-16T14:19:44.513191,shopping,Bank Transfer,Chicago,iOS
+u16,17.14,expense,2025-11-17T16:19:08.513191,transport,Card,Chicago,iOS
+u16,27.01,expense,2025-11-18T12:05:38.513191,utilities,Wallet,Chicago,Android
+u16,125.57,expense,2025-11-24T17:54:13.513191,utilities,Card,Chicago,iOS
+u16,37.72,expense,2025-11-25T17:58:53.513191,mobile_topup,Wallet,Chicago,iOS
+u16,22.7,expense,2025-11-28T10:19:34.513191,fees,Card,Chicago,Android
+u16,56.72,expense,2025-12-06T00:46:39.513191,shopping,Wallet,Chicago,iOS
+u16,25.61,expense,2025-12-06T04:52:26.513191,fuel,Wallet,Chicago,iOS
+u16,72.08,expense,2025-12-15T05:01:03.513191,utilities,Card,Chicago,Web
+u16,62.44,income,2025-12-15T12:55:59.513191,tip,Card,Chicago,Web
+u16,12.87,expense,2025-12-21T18:29:31.513191,mobile_topup,ACH,Chicago,iOS
+u16,35.02,expense,2025-12-24T20:32:02.513191,transport,Wallet,Chicago,Android
+u16,43.01,income,2025-12-29T17:49:43.513191,delivery,ACH,Chicago,iOS
+u16,153.79,expense,2026-01-06T20:40:10.513191,utilities,Card,Chicago,iOS
+u16,71.49,income,2026-01-12T21:32:22.513191,delivery,Card,Chicago,Web
+u16,46.67,expense,2026-01-15T03:49:46.513191,healthcare,Card,Chicago,iOS
+u16,66.39,income,2026-02-01T18:18:25.513191,rideshare,Card,Chicago,iOS
+u16,35.99,expense,2026-02-20T17:36:01.513191,mobile_topup,Cash,Chicago,Web
+u16,24.57,expense,2026-02-25T04:29:30.513191,fees,Bank Transfer,Chicago,Web
+u16,24.25,expense,2026-02-27T06:56:57.513191,dining,Bank Transfer,Chicago,iOS
+u17,20.14,expense,2025-10-12T02:11:01.513191,mobile_topup,Cash,Seattle,Android
+u17,109.11,expense,2025-10-22T03:42:25.513191,subscriptions,ACH,Seattle,iOS
+u17,152.19,income,2025-11-08T12:03:09.513191,freelance,Wallet,Seattle,Web
+u17,7.35,expense,2025-11-12T01:45:35.513191,fees,Card,Seattle,Android
+u17,123.96,expense,2025-11-15T10:50:24.513191,utilities,Card,Seattle,iOS
+u17,34.26,expense,2025-11-16T03:03:31.513191,groceries,Card,Seattle,iOS
+u17,91.62,expense,2025-11-25T11:29:21.513191,subscriptions,Wallet,Seattle,iOS
+u17,168.07,expense,2025-12-04T09:59:53.513191,healthcare,ACH,Seattle,Android
+u17,22.12,expense,2025-12-04T16:36:53.513191,transport,ACH,Seattle,Web
+u17,80.86,expense,2025-12-16T11:19:42.513191,utilities,Bank Transfer,Seattle,Web
+u17,39.69,expense,2025-12-17T02:03:58.513191,healthcare,Card,Seattle,Web
+u17,104.58,expense,2025-12-27T01:55:41.513191,fuel,Bank Transfer,Seattle,iOS
+u17,29.13,expense,2025-12-31T09:42:03.513191,dining,Wallet,Seattle,iOS
+u17,63.41,expense,2026-01-06T01:22:44.513191,subscriptions,Cash,Seattle,iOS
+u17,46.74,expense,2026-01-11T02:34:09.513191,shopping,Cash,Seattle,Web
+u17,9.8,expense,2026-01-21T19:26:37.513191,mobile_topup,Bank Transfer,Seattle,Web
+u17,14.71,expense,2026-01-23T23:16:13.513191,dining,Bank Transfer,Seattle,iOS
+u17,159.71,income,2026-02-13T16:14:03.513191,delivery,Card,Seattle,Android
+u17,6.71,expense,2026-02-14T17:30:38.513191,dining,Card,Seattle,Android
+u17,3.27,expense,2026-02-19T16:14:35.513191,fees,Card,Seattle,iOS
+u18,17.51,expense,2025-10-10T14:29:31.513191,fees,ACH,Seattle,Android
+u18,31.28,expense,2025-10-22T04:26:38.513191,mobile_topup,Card,Seattle,Web
+u18,10.68,expense,2025-10-25T04:45:28.513191,dining,Wallet,Seattle,Android
+u18,14.05,expense,2025-11-05T07:38:09.513191,dining,Card,Seattle,Web
+u18,11.48,expense,2025-11-17T13:14:05.513191,fuel,Card,Seattle,Android
+u18,35.68,expense,2025-11-22T03:32:25.513191,mobile_topup,Card,Seattle,Android
+u18,21.72,expense,2025-12-01T17:34:16.513191,dining,Card,Seattle,iOS
+u18,37.97,expense,2025-12-04T15:25:22.513191,transport,Wallet,Seattle,Web
+u18,9.68,expense,2025-12-08T22:20:12.513191,fees,Card,Seattle,Android
+u18,126.78,expense,2025-12-10T22:33:51.513191,utilities,ACH,Seattle,iOS
+u18,38.6,expense,2025-12-19T11:46:43.513191,groceries,Card,Seattle,Android
+u18,73.98,expense,2025-12-19T17:06:21.513191,fuel,Card,Seattle,Web
+u18,153.65,expense,2026-01-08T06:40:25.513191,utilities,Card,Seattle,Android
+u18,97.41,income,2026-01-11T19:11:55.513191,delivery,Card,Seattle,Android
+u18,29.51,expense,2026-01-16T12:38:28.513191,mobile_topup,Card,Seattle,iOS
+u18,34.5,expense,2026-01-20T21:43:07.513191,transport,Bank Transfer,Seattle,Android
+u18,21.23,expense,2026-01-22T09:48:09.513191,mobile_topup,Card,Seattle,iOS
+u18,173.55,expense,2026-01-22T18:17:14.513191,subscriptions,Card,Seattle,iOS
+u18,68.26,expense,2026-01-29T07:23:42.513191,subscriptions,Card,Seattle,Web
+u18,11.85,expense,2026-02-01T06:55:45.513191,transport,Card,Seattle,Android
+u18,39.43,expense,2026-02-03T00:31:06.513191,mobile_topup,Card,Seattle,Android
+u18,114.97,income,2026-02-05T07:42:46.513191,task,Card,Seattle,Android
+u18,85.7,expense,2026-02-11T09:13:28.513191,subscriptions,Bank Transfer,Seattle,Android
+u18,34.59,expense,2026-02-11T17:56:10.513191,groceries,Bank Transfer,Seattle,Android
+u18,34.14,expense,2026-02-24T06:11:52.513191,utilities,Card,Seattle,iOS
+u19,80.85,income,2025-10-12T11:11:05.513191,task,Card,Chicago,Web
+u19,117.06,income,2025-10-19T15:06:49.513191,tip,Card,Chicago,Android
+u19,177.59,expense,2025-10-28T09:46:58.513191,utilities,Card,Chicago,Web
+u19,115.46,income,2025-11-04T01:21:43.513191,tip,Card,Chicago,Android
+u19,16.78,expense,2025-11-07T16:51:16.513191,groceries,Card,Chicago,iOS
+u19,197.96,expense,2025-11-08T02:26:58.513191,subscriptions,Cash,Chicago,iOS
+u19,83.45,income,2025-11-09T20:02:31.513191,tip,ACH,Chicago,iOS
+u19,23.3,expense,2025-12-06T02:29:37.513191,groceries,Card,Chicago,iOS
+u19,12.89,expense,2025-12-21T23:47:58.513191,groceries,ACH,Chicago,iOS
+u19,16.04,expense,2025-12-22T18:20:29.513191,shopping,Cash,Chicago,iOS
+u19,70.35,expense,2026-01-22T04:53:36.513191,shopping,Card,Chicago,Web
+u19,96.7,expense,2026-01-25T16:24:40.513191,subscriptions,Card,Chicago,iOS
+u19,10.58,expense,2026-02-04T13:10:43.513191,fees,Card,Chicago,Android
+u19,170.2,expense,2026-02-12T08:32:48.513191,subscriptions,Wallet,Chicago,iOS
+u19,31.5,expense,2026-02-26T22:35:03.513191,dining,Card,Chicago,Android
+u19,28.64,expense,2026-03-03T20:23:07.513191,transport,Card,Chicago,Web
+u2,66.28,income,2025-10-15T07:49:57.513191,task,Wallet,Chicago,Web
+u2,23.52,expense,2025-10-18T13:07:09.513191,subscriptions,Card,Chicago,Android
+u2,122.21,expense,2025-10-27T20:49:48.513191,healthcare,Card,Chicago,Android
+u2,65.51,income,2025-11-03T12:27:55.513191,freelance,Card,Chicago,iOS
+u2,17.15,expense,2025-11-09T23:28:57.513191,fees,ACH,Chicago,Web
+u2,58.59,expense,2025-11-20T00:53:31.513191,fuel,Card,Chicago,Android
+u2,170.96,expense,2025-11-24T11:09:12.513191,subscriptions,Wallet,Chicago,Android
+u2,84.33,expense,2025-12-20T15:33:48.513191,shopping,Card,Chicago,iOS
+u2,65.86,income,2025-12-22T00:48:00.513191,rideshare,Card,Chicago,iOS
+u2,12.22,expense,2025-12-25T03:38:50.513191,mobile_topup,Wallet,Chicago,Android
+u2,78.65,income,2025-12-25T08:42:14.513191,tip,ACH,Chicago,iOS
+u2,68.91,income,2026-01-07T23:32:54.513191,delivery,Wallet,Chicago,Android
+u2,138.1,expense,2026-01-21T12:14:38.513191,healthcare,Card,Chicago,Android
+u2,103.7,expense,2026-02-04T19:53:57.513191,fuel,Card,Chicago,Android
+u2,7.3,expense,2026-02-24T13:54:53.513191,dining,Bank Transfer,Chicago,Android
+u2,11.97,expense,2026-02-25T07:06:34.513191,fees,Cash,Chicago,iOS
+u2,122.67,expense,2026-03-02T05:41:35.513191,healthcare,Bank Transfer,Chicago,iOS
+u20,34.0,expense,2025-10-10T00:07:03.513191,transport,Card,Austin,iOS
+u20,95.3,expense,2025-10-18T06:51:58.513191,fuel,Card,Austin,Android
+u20,165.36,expense,2025-10-31T03:55:59.513191,healthcare,Wallet,Austin,Web
+u20,119.48,income,2025-11-09T12:39:08.513191,tip,Bank Transfer,Austin,iOS
+u20,145.94,income,2025-11-15T07:10:57.513191,task,Bank Transfer,Austin,iOS
+u20,55.94,expense,2025-11-19T02:46:58.513191,fuel,Cash,Austin,Android
+u20,77.61,expense,2025-11-22T08:40:12.513191,subscriptions,Card,Austin,iOS
+u20,119.41,income,2025-12-14T12:36:15.513191,rideshare,Card,Austin,Android
+u20,137.01,income,2025-12-20T05:49:43.513191,task,Cash,Austin,Android
+u20,7.99,expense,2025-12-29T08:49:19.513191,mobile_topup,Wallet,Austin,iOS
+u20,7.25,expense,2026-01-02T04:34:31.513191,groceries,ACH,Austin,Web
+u20,115.32,expense,2026-01-05T12:55:40.513191,shopping,ACH,Austin,Web
+u20,52.43,expense,2026-01-06T13:22:39.513191,fuel,Card,Austin,iOS
+u20,17.46,expense,2026-01-19T03:25:22.513191,healthcare,Card,Austin,iOS
+u20,93.61,expense,2026-01-30T21:42:33.513191,utilities,ACH,Austin,iOS
+u20,22.71,expense,2026-01-31T02:03:07.513191,groceries,Card,Austin,iOS
+u20,35.13,expense,2026-02-04T22:16:46.513191,dining,Wallet,Austin,iOS
+u20,1.88,expense,2026-02-07T01:24:52.513191,fees,Card,Austin,Web
+u20,4.76,expense,2026-02-23T01:35:37.513191,fees,Card,Austin,iOS
+u20,25.76,expense,2026-02-24T17:43:39.513191,fuel,Card,Austin,iOS
+u21,72.61,expense,2025-11-01T08:40:11.513191,fuel,Bank Transfer,Chicago,iOS
+u21,25.55,expense,2025-11-10T07:45:44.513191,mobile_topup,Wallet,Chicago,iOS
+u21,24.42,expense,2025-11-28T20:07:34.513191,fuel,Card,Chicago,iOS
+u21,32.35,expense,2025-12-08T18:08:15.513191,groceries,Bank Transfer,Chicago,Android
+u21,89.37,expense,2025-12-10T15:55:40.513191,utilities,Card,Chicago,iOS
+u21,29.17,expense,2025-12-28T02:40:25.513191,fuel,Bank Transfer,Chicago,Android
+u21,72.6,expense,2026-01-06T20:18:03.513191,fuel,ACH,Chicago,Web
+u21,37.79,expense,2026-01-08T16:56:54.513191,dining,Card,Chicago,iOS
+u21,110.36,expense,2026-01-18T00:28:47.513191,utilities,Bank Transfer,Chicago,Android
+u21,165.04,expense,2026-01-20T01:02:59.513191,subscriptions,Card,Chicago,iOS
+u21,23.4,expense,2026-01-28T07:55:53.513191,fees,Bank Transfer,Chicago,iOS
+u21,31.29,expense,2026-02-15T00:07:11.513191,mobile_topup,Wallet,Chicago,iOS
+u22,31.63,expense,2025-10-22T01:15:08.513191,shopping,Wallet,Seattle,Android
+u22,139.0,expense,2025-10-22T08:37:36.513191,utilities,Bank Transfer,Seattle,Android
+u22,120.21,expense,2025-10-22T08:55:08.513191,utilities,Card,Seattle,iOS
+u22,20.62,expense,2025-11-05T14:30:53.513191,fees,Bank Transfer,Seattle,iOS
+u22,144.02,expense,2025-11-05T17:10:14.513191,healthcare,Card,Seattle,Web
+u22,66.99,expense,2025-11-06T04:04:25.513191,fuel,Cash,Seattle,iOS
+u22,20.24,expense,2025-11-17T19:57:33.513191,transport,Wallet,Seattle,Web
+u22,22.19,expense,2025-11-22T07:43:57.513191,fees,Card,Seattle,iOS
+u22,24.19,expense,2025-11-22T14:21:20.513191,fees,Wallet,Seattle,Web
+u22,40.34,expense,2025-12-24T14:13:54.513191,shopping,Card,Seattle,iOS
+u22,17.96,expense,2025-12-24T20:11:27.513191,shopping,ACH,Seattle,iOS
+u22,50.64,expense,2026-01-02T16:31:00.513191,fuel,Bank Transfer,Seattle,iOS
+u22,2.81,expense,2026-01-02T21:25:55.513191,fees,Card,Seattle,Android
+u22,20.83,expense,2026-01-10T15:51:15.513191,transport,Cash,Seattle,Android
+u22,62.74,expense,2026-02-01T17:46:00.513191,healthcare,Bank Transfer,Seattle,iOS
+u22,23.7,expense,2026-02-08T04:05:27.513191,mobile_topup,Cash,Seattle,Android
+u22,147.77,expense,2026-02-10T18:41:41.513191,healthcare,Card,Seattle,iOS
+u22,135.24,income,2026-02-18T08:18:49.513191,tip,Wallet,Seattle,Web
+u22,24.54,expense,2026-02-26T08:43:42.513191,mobile_topup,Card,Seattle,Android
+u22,33.54,expense,2026-02-28T08:33:58.513191,mobile_topup,Cash,Seattle,iOS
+u23,15.19,expense,2025-10-15T00:35:44.513191,fuel,Bank Transfer,Seattle,iOS
+u23,24.37,expense,2025-10-15T03:00:52.513191,groceries,Card,Seattle,iOS
+u23,22.22,expense,2025-10-29T00:37:46.513191,dining,Card,Seattle,Web
+u23,100.49,income,2025-10-29T02:20:30.513191,delivery,Wallet,Seattle,iOS
+u23,71.74,expense,2025-11-08T23:42:01.513191,subscriptions,Card,Seattle,iOS
+u23,71.2,expense,2025-11-15T14:19:30.513191,healthcare,Card,Seattle,Android
+u23,95.34,expense,2025-11-22T12:33:49.513191,healthcare,Wallet,Seattle,iOS
+u23,72.33,expense,2025-12-13T02:07:48.513191,utilities,Card,Seattle,Android
+u23,16.73,expense,2025-12-15T23:35:47.513191,transport,Card,Seattle,Web
+u23,146.66,expense,2025-12-17T19:08:34.513191,subscriptions,ACH,Seattle,Android
+u23,7.57,expense,2025-12-22T09:58:29.513191,transport,Card,Seattle,iOS
+u23,74.42,expense,2026-01-21T23:49:00.513191,fuel,Card,Seattle,iOS
+u23,34.89,expense,2026-01-27T11:36:44.513191,transport,Card,Seattle,iOS
+u23,11.61,expense,2026-02-01T01:17:30.513191,mobile_topup,ACH,Seattle,Web
+u23,17.98,expense,2026-02-01T02:59:51.513191,dining,Card,Seattle,iOS
+u23,92.47,expense,2026-02-02T09:01:38.513191,subscriptions,Card,Seattle,iOS
+u23,3.77,expense,2026-02-02T18:30:23.513191,mobile_topup,ACH,Seattle,iOS
+u23,122.62,expense,2026-02-03T17:57:45.513191,subscriptions,Wallet,Seattle,iOS
+u23,92.69,income,2026-02-04T02:53:47.513191,task,ACH,Seattle,Android
+u23,35.39,expense,2026-02-05T15:32:17.513191,mobile_topup,Cash,Seattle,Android
+u23,13.33,expense,2026-02-23T01:24:45.513191,transport,ACH,Seattle,Android
+u23,22.0,expense,2026-02-23T03:56:59.513191,transport,Wallet,Seattle,iOS
+u23,17.25,expense,2026-02-25T13:44:19.513191,transport,Card,Seattle,Android
+u24,4.0,expense,2025-10-09T22:40:45.513191,dining,Cash,NYC,iOS
+u24,24.98,expense,2025-10-25T19:43:36.513191,utilities,Card,NYC,iOS
+u24,37.22,expense,2025-10-28T11:04:53.513191,dining,Wallet,NYC,iOS
+u24,98.64,expense,2025-11-04T22:08:54.513191,shopping,Card,NYC,Web
+u24,106.41,expense,2025-11-10T20:40:19.513191,utilities,Bank Transfer,NYC,Web
+u24,109.78,expense,2025-11-23T21:32:03.513191,healthcare,Card,NYC,iOS
+u24,18.1,expense,2025-11-26T02:47:12.513191,dining,Cash,NYC,Web
+u24,123.82,expense,2025-12-08T10:58:00.513191,subscriptions,Bank Transfer,NYC,Web
+u24,6.07,expense,2025-12-15T21:25:02.513191,fees,Card,NYC,Android
+u24,37.9,expense,2025-12-16T22:14:59.513191,groceries,Card,NYC,Web
+u24,66.85,expense,2025-12-18T18:06:32.513191,shopping,Card,NYC,iOS
+u24,172.96,income,2025-12-22T12:38:30.513191,freelance,Card,NYC,iOS
+u24,67.05,expense,2025-12-25T15:29:58.513191,shopping,Card,NYC,Android
+u24,171.66,expense,2025-12-29T12:16:05.513191,subscriptions,Cash,NYC,iOS
+u24,61.37,expense,2026-01-13T00:01:01.513191,fuel,Card,NYC,iOS
+u24,69.88,expense,2026-02-05T10:14:18.513191,subscriptions,Wallet,NYC,Web
+u24,95.99,expense,2026-02-15T11:46:38.513191,shopping,Card,NYC,Android
+u24,8.05,expense,2026-02-17T04:22:24.513191,fees,Wallet,NYC,Android
+u25,37.95,expense,2025-10-17T04:12:18.513191,groceries,Card,San Francisco,Android
+u25,50.62,income,2025-10-23T18:44:21.513191,delivery,Bank Transfer,San Francisco,iOS
+u25,18.42,expense,2025-10-24T07:41:32.513191,healthcare,Wallet,San Francisco,Android
+u25,149.56,expense,2025-11-14T21:27:09.513191,utilities,Card,San Francisco,Android
+u25,58.4,income,2025-11-16T00:13:40.513191,rideshare,Wallet,San Francisco,iOS
+u25,29.78,expense,2025-11-22T13:06:40.513191,mobile_topup,Card,San Francisco,Web
+u25,148.07,expense,2025-12-06T09:53:40.513191,utilities,Wallet,San Francisco,iOS
+u25,4.09,expense,2025-12-14T21:09:32.513191,transport,Card,San Francisco,iOS
+u25,62.65,income,2025-12-20T01:17:44.513191,freelance,Bank Transfer,San Francisco,iOS
+u25,26.94,expense,2025-12-30T04:46:06.513191,transport,Card,San Francisco,Android
+u25,55.99,income,2026-01-10T04:41:20.513191,task,Card,San Francisco,Android
+u25,153.07,expense,2026-01-18T05:45:37.513191,utilities,Card,San Francisco,Android
+u25,81.18,expense,2026-01-18T13:39:45.513191,utilities,Cash,San Francisco,Android
+u25,34.18,expense,2026-01-25T09:12:42.513191,dining,Bank Transfer,San Francisco,iOS
+u25,26.62,expense,2026-01-29T14:42:44.513191,shopping,Cash,San Francisco,iOS
+u25,66.18,income,2026-02-06T09:20:24.513191,task,Wallet,San Francisco,iOS
+u25,12.3,expense,2026-02-07T15:24:43.513191,fuel,Cash,San Francisco,iOS
+u25,29.62,expense,2026-02-15T15:49:05.513191,healthcare,Card,San Francisco,Android
+u25,94.01,expense,2026-02-28T07:18:20.513191,fuel,Bank Transfer,San Francisco,Android
+u26,11.73,expense,2025-10-12T10:21:45.513191,transport,Bank Transfer,Atlanta,Android
+u26,89.71,expense,2025-10-12T15:58:22.513191,subscriptions,Wallet,Atlanta,Android
+u26,31.68,expense,2025-10-12T20:10:30.513191,transport,Cash,Atlanta,Android
+u26,78.33,income,2025-10-13T20:28:27.513191,delivery,Card,Atlanta,iOS
+u26,4.28,expense,2025-10-30T09:57:20.513191,fees,Card,Atlanta,Android
+u26,85.88,income,2025-11-08T14:22:16.513191,task,Card,Atlanta,Web
+u26,90.55,expense,2025-11-13T10:45:03.513191,healthcare,Cash,Atlanta,Web
+u26,36.78,expense,2025-12-02T04:21:00.513191,groceries,Cash,Atlanta,Android
+u26,3.08,expense,2025-12-04T08:30:52.513191,transport,ACH,Atlanta,iOS
+u26,20.49,expense,2025-12-09T04:09:01.513191,fuel,ACH,Atlanta,Android
+u26,70.25,expense,2025-12-20T10:07:41.513191,subscriptions,Card,Atlanta,Web
+u26,8.21,expense,2026-01-03T22:38:15.513191,mobile_topup,ACH,Atlanta,Web
+u26,109.64,expense,2026-01-04T23:51:37.513191,healthcare,Card,Atlanta,iOS
+u26,6.21,expense,2026-01-15T22:28:01.513191,transport,Card,Atlanta,Web
+u26,77.9,income,2026-01-18T14:53:06.513191,task,Card,Atlanta,iOS
+u26,74.14,income,2026-01-26T00:33:42.513191,rideshare,Card,Atlanta,iOS
+u26,117.33,expense,2026-01-27T13:02:59.513191,subscriptions,Card,Atlanta,iOS
+u26,22.81,expense,2026-02-02T16:57:11.513191,dining,Wallet,Atlanta,Android
+u26,74.21,income,2026-02-07T12:28:54.513191,freelance,Card,Atlanta,iOS
+u26,82.46,income,2026-02-14T17:08:03.513191,rideshare,Card,Atlanta,iOS
+u27,113.74,expense,2025-10-09T15:41:56.513191,utilities,Wallet,Houston,Android
+u27,23.4,expense,2025-11-05T00:26:13.513191,groceries,Card,Houston,Android
+u27,38.28,expense,2025-11-11T08:49:43.513191,transport,Card,Houston,Web
+u27,139.34,expense,2025-11-22T01:21:16.513191,healthcare,Card,Houston,Web
+u27,12.94,expense,2025-11-23T07:50:27.513191,fuel,Card,Houston,Web
+u27,61.04,expense,2025-12-04T15:20:37.513191,healthcare,Card,Houston,Web
+u27,8.3,expense,2025-12-19T18:20:48.513191,mobile_topup,Card,Houston,iOS
+u27,39.82,expense,2025-12-20T18:22:24.513191,transport,ACH,Houston,Android
+u27,14.5,expense,2026-01-11T20:03:12.513191,dining,ACH,Houston,iOS
+u27,97.59,expense,2026-01-14T23:37:51.513191,healthcare,Bank Transfer,Houston,Android
+u27,18.61,expense,2026-01-22T04:32:11.513191,fees,Card,Houston,Android
+u27,27.89,expense,2026-02-01T20:42:21.513191,shopping,Wallet,Houston,iOS
+u27,86.71,expense,2026-02-07T09:07:19.513191,utilities,Bank Transfer,Houston,Android
+u27,3.08,expense,2026-02-14T00:38:52.513191,mobile_topup,ACH,Houston,Android
+u27,102.46,income,2026-02-18T22:30:40.513191,delivery,Wallet,Houston,iOS
+u27,36.88,expense,2026-02-21T09:13:52.513191,dining,Bank Transfer,Houston,Android
+u27,6.64,expense,2026-02-27T21:46:29.513191,mobile_topup,Wallet,Houston,Android
+u28,101.35,expense,2025-10-12T19:32:01.513191,shopping,Cash,Boston,iOS
+u28,166.06,income,2025-10-16T19:31:04.513191,freelance,Card,Boston,Android
+u28,163.49,income,2025-10-28T22:20:56.513191,tip,ACH,Boston,Android
+u28,166.34,income,2025-11-06T12:06:01.513191,rideshare,ACH,Boston,iOS
+u28,52.33,expense,2025-11-14T03:48:57.513191,subscriptions,Card,Boston,Web
+u28,180.36,income,2025-11-14T10:14:46.513191,rideshare,Wallet,Boston,iOS
+u28,92.69,expense,2025-11-29T11:31:11.513191,shopping,Cash,Boston,Android
+u28,5.58,expense,2025-12-08T09:26:02.513191,dining,Bank Transfer,Boston,Android
+u28,155.27,income,2025-12-14T23:51:07.513191,task,Card,Boston,iOS
+u28,10.88,expense,2026-01-10T14:42:52.513191,mobile_topup,Bank Transfer,Boston,iOS
+u28,5.32,expense,2026-01-23T05:15:31.513191,dining,Card,Boston,Android
+u28,142.87,income,2026-01-24T11:32:56.513191,freelance,ACH,Boston,Web
+u28,159.24,income,2026-01-31T05:20:32.513191,freelance,Card,Boston,Web
+u28,104.43,expense,2026-02-17T15:13:32.513191,shopping,Card,Boston,iOS
+u28,10.77,expense,2026-02-22T22:14:31.513191,dining,Card,Boston,iOS
+u29,32.4,expense,2025-10-16T04:39:58.513191,dining,ACH,Seattle,Android
+u29,3.61,expense,2025-11-06T12:08:26.513191,groceries,Card,Seattle,iOS
+u29,117.97,expense,2025-11-12T06:38:13.513191,fuel,Bank Transfer,Seattle,iOS
+u29,9.48,expense,2025-11-24T05:35:43.513191,fees,Card,Seattle,iOS
+u29,169.47,income,2025-11-26T01:13:24.513191,tip,ACH,Seattle,Android
+u29,123.43,expense,2025-12-05T00:30:10.513191,subscriptions,ACH,Seattle,Android
+u29,140.97,income,2025-12-18T06:52:54.513191,freelance,ACH,Seattle,iOS
+u29,13.01,expense,2025-12-19T02:59:41.513191,dining,Wallet,Seattle,Web
+u29,14.66,expense,2025-12-19T09:34:44.513191,groceries,ACH,Seattle,Android
+u29,16.26,expense,2025-12-23T12:05:11.513191,mobile_topup,ACH,Seattle,Android
+u29,135.16,expense,2025-12-28T19:51:00.513191,utilities,Cash,Seattle,Android
+u29,159.15,expense,2026-01-04T10:34:55.513191,healthcare,Card,Seattle,iOS
+u29,188.97,expense,2026-01-05T04:16:17.513191,utilities,Bank Transfer,Seattle,iOS
+u29,65.85,expense,2026-01-08T21:43:35.513191,fuel,Card,Seattle,iOS
+u29,26.38,expense,2026-01-15T13:46:55.513191,dining,Bank Transfer,Seattle,iOS
+u29,176.79,expense,2026-01-24T01:55:52.513191,subscriptions,Wallet,Seattle,Android
+u29,7.87,expense,2026-02-19T09:16:00.513191,mobile_topup,Wallet,Seattle,iOS
+u29,5.88,expense,2026-02-22T08:29:22.513191,transport,Card,Seattle,Android
+u29,12.79,expense,2026-03-03T17:51:03.513191,transport,Card,Seattle,Android
+u3,18.75,expense,2025-10-19T14:36:58.513191,fees,Cash,Boston,Android
+u3,4.85,expense,2025-10-27T05:32:28.513191,dining,Bank Transfer,Boston,iOS
+u3,7.66,expense,2025-10-27T12:14:01.513191,fees,Cash,Boston,iOS
+u3,21.88,expense,2025-11-04T03:11:07.513191,groceries,Card,Boston,iOS
+u3,1.31,expense,2025-11-15T00:45:42.513191,fees,Card,Boston,Android
+u3,68.83,expense,2025-11-21T18:48:23.513191,shopping,Card,Boston,Web
+u3,13.01,expense,2025-12-17T07:11:31.513191,fees,ACH,Boston,Android
+u3,32.85,expense,2025-12-23T12:17:38.513191,dining,ACH,Boston,Android
+u3,16.38,expense,2026-01-06T23:11:38.513191,groceries,Card,Boston,Web
+u3,197.13,expense,2026-01-19T16:35:26.513191,subscriptions,Card,Boston,iOS
+u3,119.14,expense,2026-01-27T16:09:15.513191,fuel,ACH,Boston,iOS
+u3,20.96,expense,2026-02-04T04:35:38.513191,groceries,Cash,Boston,Android
+u3,11.26,expense,2026-02-06T02:46:59.513191,fees,Wallet,Boston,Android
+u3,107.72,income,2026-02-07T06:19:06.513191,freelance,Bank Transfer,Boston,iOS
+u3,36.03,expense,2026-02-21T04:11:38.513191,transport,ACH,Boston,iOS
+u3,9.55,expense,2026-02-24T20:36:19.513191,mobile_topup,Card,Boston,iOS
+u3,198.31,expense,2026-03-01T23:31:28.513191,utilities,Card,Boston,Android
+u30,59.83,expense,2025-10-10T00:05:21.513191,shopping,Wallet,San Francisco,iOS
+u30,4.91,expense,2025-10-12T14:31:05.513191,fees,Card,San Francisco,iOS
+u30,16.45,expense,2025-11-03T21:32:16.513191,fees,Bank Transfer,San Francisco,Android
+u30,28.88,expense,2025-11-08T11:34:57.513191,mobile_topup,Card,San Francisco,Android
+u30,39.94,expense,2025-11-13T21:14:54.513191,transport,Card,San Francisco,iOS
+u30,49.97,expense,2025-11-23T21:58:08.513191,utilities,Card,San Francisco,iOS
+u30,29.28,expense,2025-12-06T00:23:32.513191,fuel,Bank Transfer,San Francisco,Web
+u30,85.83,income,2025-12-07T16:45:38.513191,delivery,Cash,San Francisco,Web
+u30,10.7,expense,2025-12-18T13:47:03.513191,fees,Card,San Francisco,iOS
+u30,186.22,expense,2025-12-20T20:49:19.513191,healthcare,Bank Transfer,San Francisco,iOS
+u30,36.18,expense,2025-12-21T01:28:11.513191,groceries,Card,San Francisco,Android
+u30,128.68,expense,2025-12-28T18:14:46.513191,subscriptions,Card,San Francisco,Android
+u30,20.1,expense,2025-12-28T22:50:59.513191,mobile_topup,Bank Transfer,San Francisco,iOS
+u30,17.42,expense,2026-01-12T04:27:05.513191,fees,Wallet,San Francisco,Android
+u30,137.96,expense,2026-01-15T10:37:18.513191,utilities,Card,San Francisco,Android
+u30,14.84,expense,2026-01-17T09:07:21.513191,groceries,Card,San Francisco,Web
+u30,12.43,expense,2026-02-04T01:19:35.513191,fees,ACH,San Francisco,iOS
+u30,17.34,expense,2026-02-17T13:02:27.513191,healthcare,Card,San Francisco,Web
+u30,30.68,expense,2026-02-28T17:42:46.513191,groceries,Card,San Francisco,Android
+u30,16.71,expense,2026-03-01T09:46:59.513191,fees,Cash,San Francisco,iOS
+u31,11.88,expense,2025-10-12T22:13:19.513191,transport,Bank Transfer,San Francisco,Android
+u31,69.18,expense,2025-10-21T20:53:37.513191,shopping,Wallet,San Francisco,Web
+u31,21.01,expense,2025-10-23T03:39:39.513191,shopping,ACH,San Francisco,iOS
+u31,28.54,expense,2025-11-04T03:15:12.513191,utilities,ACH,San Francisco,Android
+u31,17.4,expense,2025-11-16T17:59:29.513191,subscriptions,Bank Transfer,San Francisco,iOS
+u31,16.16,expense,2025-11-27T06:01:38.513191,groceries,ACH,San Francisco,Android
+u31,73.42,expense,2025-11-27T09:47:37.513191,fuel,Card,San Francisco,Android
+u31,215.38,income,2025-12-12T23:44:50.513191,rideshare,Card,San Francisco,Android
+u31,15.97,expense,2025-12-14T23:36:12.513191,mobile_topup,Wallet,San Francisco,iOS
+u31,119.76,income,2025-12-16T10:25:49.513191,delivery,Card,San Francisco,Web
+u31,37.35,expense,2025-12-16T16:52:52.513191,dining,ACH,San Francisco,Android
+u31,212.18,income,2026-01-14T06:31:48.513191,delivery,ACH,San Francisco,iOS
+u31,21.54,expense,2026-01-22T07:21:51.513191,shopping,ACH,San Francisco,Android
+u31,209.03,income,2026-01-27T10:38:34.513191,task,Wallet,San Francisco,Android
+u31,64.8,expense,2026-01-31T03:42:42.513191,healthcare,Card,San Francisco,Web
+u31,195.26,income,2026-02-02T06:10:15.513191,delivery,Wallet,San Francisco,Android
+u31,183.75,expense,2026-02-13T01:52:36.513191,utilities,Wallet,San Francisco,Web
+u31,23.38,expense,2026-03-02T11:10:35.513191,dining,ACH,San Francisco,Android
+u31,62.16,expense,2026-03-03T07:50:15.513191,utilities,Card,San Francisco,Android
+u31,100.53,expense,2026-03-03T21:14:39.513191,shopping,Wallet,San Francisco,iOS
+u32,140.88,expense,2025-10-17T07:52:31.513191,subscriptions,Wallet,Houston,iOS
+u32,97.4,expense,2025-10-25T15:52:46.513191,fuel,Bank Transfer,Houston,iOS
+u32,17.09,expense,2025-10-28T07:01:04.513191,groceries,Card,Houston,iOS
+u32,9.54,expense,2025-10-28T09:26:55.513191,mobile_topup,Card,Houston,Android
+u32,27.18,expense,2025-10-29T20:54:10.513191,shopping,Wallet,Houston,Web
+u32,22.25,expense,2025-10-30T00:27:28.513191,subscriptions,Card,Houston,Android
+u32,99.43,expense,2025-11-01T11:08:53.513191,shopping,Card,Houston,iOS
+u32,22.51,expense,2025-11-03T16:13:38.513191,transport,ACH,Houston,iOS
+u32,115.92,income,2025-11-09T14:25:09.513191,task,Card,Houston,Web
+u32,3.06,expense,2025-11-11T23:13:10.513191,transport,ACH,Houston,Android
+u32,26.49,expense,2025-11-17T13:22:18.513191,transport,ACH,Houston,Android
+u32,109.33,income,2025-11-21T02:28:25.513191,task,Wallet,Houston,Web
+u32,5.73,expense,2025-11-21T16:12:28.513191,mobile_topup,Card,Houston,iOS
+u32,32.29,expense,2025-11-27T15:38:43.513191,mobile_topup,Wallet,Houston,iOS
+u32,12.13,expense,2025-12-24T06:20:53.513191,transport,Card,Houston,iOS
+u32,8.4,expense,2025-12-24T23:07:40.513191,fees,ACH,Houston,Android
+u32,15.93,expense,2025-12-29T17:57:20.513191,fees,Card,Houston,Web
+u32,36.29,expense,2026-01-17T02:59:56.513191,groceries,Cash,Houston,Web
+u32,24.18,expense,2026-01-27T11:30:05.513191,fees,Bank Transfer,Houston,iOS
+u32,28.72,expense,2026-02-20T21:22:18.513191,mobile_topup,Bank Transfer,Houston,iOS
+u33,38.21,expense,2025-10-15T18:36:53.513191,transport,Wallet,Seattle,Android
+u33,196.12,expense,2025-10-28T02:14:54.513191,subscriptions,Wallet,Seattle,iOS
+u33,31.41,expense,2025-11-07T04:29:50.513191,healthcare,Card,Seattle,Android
+u33,182.11,expense,2025-11-14T07:36:28.513191,subscriptions,Wallet,Seattle,Web
+u33,163.22,income,2025-11-15T16:34:15.513191,freelance,ACH,Seattle,iOS
+u33,54.7,expense,2025-11-15T21:58:06.513191,healthcare,ACH,Seattle,iOS
+u33,180.61,expense,2025-11-28T16:15:22.513191,utilities,ACH,Seattle,Web
+u33,32.06,expense,2025-12-04T20:58:52.513191,mobile_topup,ACH,Seattle,Android
+u33,95.56,expense,2025-12-04T23:49:20.513191,shopping,Card,Seattle,Android
+u33,11.52,expense,2025-12-17T19:01:14.513191,transport,Card,Seattle,Android
+u33,99.4,expense,2025-12-24T11:31:16.513191,fuel,Card,Seattle,Web
+u33,162.73,income,2025-12-29T12:56:46.513191,rideshare,Bank Transfer,Seattle,Web
+u33,113.76,expense,2025-12-29T20:58:34.513191,fuel,Wallet,Seattle,Web
+u33,18.8,expense,2025-12-31T21:28:59.513191,fees,Wallet,Seattle,Android
+u33,10.06,expense,2026-01-03T16:53:57.513191,mobile_topup,Cash,Seattle,Android
+u33,30.46,expense,2026-01-20T08:36:16.513191,transport,ACH,Seattle,Android
+u33,152.45,income,2026-01-26T11:11:10.513191,freelance,ACH,Seattle,Android
+u33,55.91,expense,2026-02-02T14:13:06.513191,shopping,Cash,Seattle,iOS
+u33,38.79,expense,2026-02-02T19:45:16.513191,mobile_topup,Card,Seattle,Android
+u33,26.59,expense,2026-02-05T07:04:16.513191,shopping,Wallet,Seattle,iOS
+u33,110.91,expense,2026-02-11T15:12:37.513191,subscriptions,Bank Transfer,Seattle,iOS
+u33,150.39,income,2026-02-15T21:50:29.513191,task,ACH,Seattle,iOS
+u33,165.72,income,2026-02-22T03:56:11.513191,rideshare,ACH,Seattle,Android
+u33,146.13,expense,2026-02-28T02:55:34.513191,healthcare,ACH,Seattle,iOS
+u34,96.55,expense,2025-10-13T13:24:11.513191,shopping,Card,Seattle,Android
+u34,143.2,expense,2025-10-16T07:17:27.513191,utilities,Card,Seattle,Android
+u34,2.59,expense,2025-10-29T17:46:01.513191,fees,Card,Seattle,Web
+u34,52.33,expense,2025-10-30T11:01:37.513191,shopping,ACH,Seattle,Android
+u34,5.51,expense,2025-11-01T00:05:02.513191,fees,Wallet,Seattle,iOS
+u34,17.37,expense,2025-11-02T03:46:06.513191,fees,Bank Transfer,Seattle,Web
+u34,138.74,income,2025-11-07T05:59:17.513191,task,ACH,Seattle,Android
+u34,8.84,expense,2025-11-08T18:51:20.513191,mobile_topup,Bank Transfer,Seattle,Web
+u34,153.45,expense,2025-11-18T11:12:34.513191,subscriptions,Card,Seattle,Android
+u34,18.66,expense,2025-11-27T11:34:52.513191,groceries,Bank Transfer,Seattle,Android
+u34,181.4,expense,2025-12-02T03:18:10.513191,subscriptions,Card,Seattle,iOS
+u34,9.18,expense,2025-12-12T01:17:21.513191,transport,Card,Seattle,Android
+u34,12.43,expense,2025-12-12T17:20:03.513191,groceries,Card,Seattle,Web
+u34,32.2,expense,2025-12-18T17:34:18.513191,mobile_topup,Card,Seattle,iOS
+u34,33.04,expense,2025-12-18T22:23:00.513191,groceries,ACH,Seattle,iOS
+u34,18.68,expense,2025-12-25T13:53:06.513191,mobile_topup,Card,Seattle,Android
+u34,29.57,expense,2025-12-27T19:37:31.513191,groceries,ACH,Seattle,iOS
+u34,7.83,expense,2026-01-02T13:16:31.513191,dining,Card,Seattle,Android
+u34,137.53,expense,2026-01-04T15:56:18.513191,utilities,Card,Seattle,iOS
+u34,122.53,income,2026-01-15T11:40:31.513191,tip,Card,Seattle,iOS
+u34,1.81,expense,2026-01-16T05:10:04.513191,fees,Card,Seattle,iOS
+u34,88.89,expense,2026-01-19T14:28:22.513191,shopping,Card,Seattle,iOS
+u34,24.8,expense,2026-01-21T15:41:14.513191,fees,Card,Seattle,iOS
+u34,47.77,expense,2026-02-12T22:02:44.513191,fuel,Card,Seattle,Android
+u34,181.7,expense,2026-02-13T04:43:03.513191,healthcare,ACH,Seattle,iOS
+u34,88.64,expense,2026-02-21T04:35:33.513191,healthcare,Cash,Seattle,Android
+u34,34.8,expense,2026-02-25T06:27:16.513191,groceries,Card,Seattle,Android
+u35,191.34,income,2025-10-16T16:26:38.513191,freelance,Card,NYC,Android
+u35,135.89,expense,2025-11-17T02:03:08.513191,subscriptions,Wallet,NYC,Web
+u35,16.14,expense,2025-11-19T20:08:04.513191,dining,Bank Transfer,NYC,iOS
+u35,181.67,income,2025-11-20T11:27:28.513191,freelance,Bank Transfer,NYC,Android
+u35,29.02,expense,2025-11-21T09:00:27.513191,transport,Cash,NYC,Web
+u35,188.46,expense,2025-11-22T00:55:59.513191,healthcare,Card,NYC,iOS
+u35,30.9,expense,2025-12-23T00:59:48.513191,dining,ACH,NYC,iOS
+u35,13.96,expense,2026-01-02T04:14:32.513191,transport,Card,NYC,Android
+u35,158.52,income,2026-01-03T03:12:16.513191,delivery,ACH,NYC,Android
+u35,82.64,expense,2026-01-18T11:25:00.513191,shopping,Card,NYC,iOS
+u35,28.99,expense,2026-01-19T20:13:58.513191,transport,Bank Transfer,NYC,Web
+u35,189.33,income,2026-02-07T06:12:39.513191,tip,Card,NYC,iOS
+u35,149.49,income,2026-02-13T08:00:12.513191,task,Wallet,NYC,iOS
+u35,36.8,expense,2026-02-13T19:25:50.513191,mobile_topup,Bank Transfer,NYC,iOS
+u35,89.04,expense,2026-02-18T13:43:09.513191,fuel,ACH,NYC,iOS
+u35,79.79,expense,2026-03-03T01:51:53.513191,fuel,Wallet,NYC,iOS
+u36,162.92,expense,2025-10-12T02:28:45.513191,utilities,Card,Houston,iOS
+u36,24.62,expense,2025-10-16T10:54:13.513191,transport,Card,Houston,iOS
+u36,30.59,expense,2025-10-17T12:04:43.513191,mobile_topup,Card,Houston,Web
+u36,153.03,expense,2025-11-14T10:23:15.513191,subscriptions,Card,Houston,iOS
+u36,123.62,expense,2025-11-25T14:25:33.513191,utilities,Card,Houston,Android
+u36,83.75,expense,2025-11-26T06:57:22.513191,healthcare,Card,Houston,Android
+u36,95.88,expense,2025-11-26T09:02:53.513191,utilities,Bank Transfer,Houston,Android
+u36,40.28,expense,2025-12-13T08:36:46.513191,healthcare,ACH,Houston,Android
+u36,74.99,income,2025-12-18T01:26:06.513191,rideshare,ACH,Houston,iOS
+u36,75.98,income,2026-01-02T03:33:30.513191,task,Wallet,Houston,iOS
+u36,108.17,income,2026-01-29T14:19:50.513191,tip,ACH,Houston,Android
+u36,90.08,expense,2026-02-26T04:33:00.513191,subscriptions,Bank Transfer,Houston,iOS
+u37,93.53,income,2025-10-13T19:37:31.513191,rideshare,Card,Atlanta,iOS
+u37,23.84,expense,2025-10-29T08:44:13.513191,mobile_topup,Bank Transfer,Atlanta,Web
+u37,33.27,expense,2025-10-29T11:13:18.513191,transport,Wallet,Atlanta,iOS
+u37,175.9,expense,2025-10-31T03:42:26.513191,utilities,Card,Atlanta,iOS
+u37,49.71,expense,2025-11-14T08:58:02.513191,shopping,Cash,Atlanta,iOS
+u37,36.35,expense,2025-11-15T04:32:36.513191,transport,Card,Atlanta,Web
+u37,14.39,expense,2025-11-23T14:28:11.513191,fees,Card,Atlanta,Android
+u37,51.4,expense,2025-11-25T07:46:36.513191,shopping,Wallet,Atlanta,iOS
+u37,196.42,expense,2025-11-30T06:22:47.513191,utilities,Cash,Atlanta,iOS
+u37,12.73,expense,2025-12-06T12:44:41.513191,groceries,Card,Atlanta,Android
+u37,28.61,expense,2025-12-19T17:58:16.513191,fuel,Cash,Atlanta,iOS
+u37,25.78,expense,2025-12-28T14:01:51.513191,mobile_topup,Cash,Atlanta,iOS
+u37,11.1,expense,2026-01-01T08:06:41.513191,groceries,Card,Atlanta,iOS
+u37,30.11,expense,2026-01-03T08:57:56.513191,dining,Wallet,Atlanta,iOS
+u37,7.1,expense,2026-01-04T15:11:42.513191,mobile_topup,Wallet,Atlanta,iOS
+u37,24.89,expense,2026-01-07T14:11:50.513191,groceries,Bank Transfer,Atlanta,iOS
+u37,100.67,income,2026-01-11T04:23:36.513191,task,ACH,Atlanta,iOS
+u37,13.45,expense,2026-01-17T06:49:46.513191,groceries,Bank Transfer,Atlanta,iOS
+u37,116.04,expense,2026-01-20T15:47:08.513191,healthcare,Bank Transfer,Atlanta,iOS
+u37,14.86,expense,2026-02-15T14:27:02.513191,fuel,Card,Atlanta,iOS
+u37,102.7,income,2026-02-16T18:09:14.513191,freelance,ACH,Atlanta,iOS
+u37,32.09,expense,2026-02-18T23:30:11.513191,subscriptions,Card,Atlanta,Android
+u37,4.14,expense,2026-02-27T21:42:18.513191,groceries,Card,Atlanta,Web
+u37,106.97,expense,2026-02-28T22:17:16.513191,subscriptions,Bank Transfer,Atlanta,Android
+u38,30.23,expense,2025-10-16T05:44:00.513191,mobile_topup,Wallet,Austin,Android
+u38,27.18,expense,2025-10-27T03:07:22.513191,dining,Bank Transfer,Austin,Android
+u38,6.05,expense,2025-11-01T18:40:34.513191,dining,Bank Transfer,Austin,Android
+u38,31.26,expense,2025-11-07T18:26:22.513191,groceries,Card,Austin,iOS
+u38,20.01,expense,2025-11-15T21:21:56.513191,transport,ACH,Austin,Android
+u38,171.7,income,2025-11-19T17:08:04.513191,tip,Bank Transfer,Austin,Web
+u38,43.01,expense,2025-11-29T00:19:59.513191,shopping,Wallet,Austin,iOS
+u38,17.11,expense,2025-11-30T14:51:53.513191,dining,ACH,Austin,iOS
+u38,96.55,expense,2025-12-01T18:34:32.513191,healthcare,Bank Transfer,Austin,iOS
+u38,177.6,expense,2025-12-25T16:24:57.513191,utilities,Card,Austin,Android
+u38,20.2,expense,2025-12-26T22:26:43.513191,dining,ACH,Austin,iOS
+u38,25.76,expense,2025-12-27T04:23:12.513191,healthcare,Card,Austin,iOS
+u38,21.3,expense,2026-01-08T12:06:16.513191,mobile_topup,Card,Austin,Android
+u38,175.46,expense,2026-01-08T21:45:10.513191,subscriptions,Card,Austin,iOS
+u38,75.25,expense,2026-01-11T21:06:54.513191,healthcare,Card,Austin,Web
+u38,4.61,expense,2026-01-22T22:25:46.513191,mobile_topup,ACH,Austin,iOS
+u38,35.3,expense,2026-02-03T00:51:51.513191,groceries,Wallet,Austin,Android
+u38,200.25,income,2026-02-11T14:30:03.513191,delivery,Card,Austin,Android
+u38,95.25,expense,2026-02-12T21:25:57.513191,healthcare,Card,Austin,iOS
+u38,37.46,expense,2026-02-17T10:01:58.513191,mobile_topup,Bank Transfer,Austin,iOS
+u38,143.5,income,2026-02-23T20:17:54.513191,tip,ACH,Austin,Android
+u38,132.43,expense,2026-02-24T19:37:33.513191,healthcare,ACH,Austin,Web
+u39,23.08,expense,2025-10-09T16:52:35.513191,mobile_topup,Card,Boston,Web
+u39,3.35,expense,2025-10-17T08:41:07.513191,fees,ACH,Boston,Android
+u39,4.79,expense,2025-10-25T04:05:47.513191,mobile_topup,Card,Boston,Android
+u39,31.18,expense,2025-10-25T14:51:26.513191,groceries,Wallet,Boston,iOS
+u39,87.53,expense,2025-10-30T07:12:02.513191,fuel,Bank Transfer,Boston,iOS
+u39,22.53,expense,2025-11-09T17:32:10.513191,shopping,Wallet,Boston,Android
+u39,92.48,expense,2025-11-27T09:08:22.513191,subscriptions,Wallet,Boston,Android
+u39,38.66,expense,2025-11-30T15:53:39.513191,mobile_topup,Wallet,Boston,iOS
+u39,173.74,expense,2025-12-05T21:33:35.513191,utilities,Card,Boston,iOS
+u39,90.66,income,2025-12-07T16:37:00.513191,delivery,Bank Transfer,Boston,iOS
+u39,72.42,expense,2025-12-10T15:07:47.513191,fuel,Card,Boston,Web
+u39,39.87,expense,2025-12-18T08:10:29.513191,mobile_topup,Card,Boston,iOS
+u39,181.62,expense,2025-12-23T19:24:49.513191,subscriptions,Card,Boston,iOS
+u39,15.57,expense,2026-01-04T21:28:43.513191,groceries,Cash,Boston,Android
+u39,135.83,income,2026-01-05T09:25:29.513191,task,ACH,Boston,iOS
+u39,21.24,expense,2026-01-08T05:04:52.513191,shopping,Card,Boston,Android
+u39,9.39,expense,2026-01-08T06:03:33.513191,fees,Bank Transfer,Boston,Android
+u39,30.63,expense,2026-01-12T20:45:23.513191,transport,Card,Boston,Web
+u39,98.6,income,2026-01-17T14:23:35.513191,delivery,Bank Transfer,Boston,Android
+u39,26.83,expense,2026-01-19T08:49:59.513191,utilities,Card,Boston,Android
+u39,1.05,expense,2026-02-01T20:50:38.513191,fees,Bank Transfer,Boston,iOS
+u39,15.82,expense,2026-02-01T22:53:05.513191,mobile_topup,Card,Boston,iOS
+u39,49.73,expense,2026-02-03T03:48:05.513191,shopping,Bank Transfer,Boston,Web
+u39,24.77,expense,2026-02-20T04:13:04.513191,dining,Cash,Boston,iOS
+u39,28.79,expense,2026-03-01T10:30:55.513191,shopping,Wallet,Boston,Android
+u4,137.11,expense,2025-11-07T22:54:46.513191,subscriptions,Card,Chicago,Android
+u4,25.7,expense,2025-11-13T13:23:56.513191,transport,Card,Chicago,Web
+u4,162.86,expense,2025-11-13T15:39:40.513191,utilities,Card,Chicago,Android
+u4,35.93,expense,2025-12-03T07:22:13.513191,healthcare,Card,Chicago,Android
+u4,10.94,expense,2025-12-07T06:17:14.513191,dining,Card,Chicago,Web
+u4,73.61,income,2025-12-14T06:41:00.513191,rideshare,Card,Chicago,Android
+u4,83.23,income,2025-12-21T01:23:54.513191,freelance,Wallet,Chicago,Android
+u4,73.39,expense,2025-12-27T02:02:49.513191,subscriptions,Bank Transfer,Chicago,Android
+u4,36.86,expense,2026-01-10T09:04:19.513191,dining,ACH,Chicago,Android
+u4,29.53,expense,2026-01-13T00:20:42.513191,groceries,ACH,Chicago,iOS
+u4,20.94,expense,2026-02-01T08:44:12.513191,mobile_topup,Wallet,Chicago,iOS
+u4,108.42,expense,2026-02-09T08:30:22.513191,healthcare,Card,Chicago,iOS
+u4,90.96,income,2026-02-10T02:28:03.513191,freelance,Bank Transfer,Chicago,Android
+u40,111.18,expense,2025-10-16T20:04:18.513191,fuel,Card,Austin,Android
+u40,15.23,expense,2025-10-22T15:01:45.513191,groceries,ACH,Austin,iOS
+u40,121.38,income,2025-11-03T11:08:42.513191,delivery,Bank Transfer,Austin,iOS
+u40,115.94,expense,2025-11-06T20:39:52.513191,fuel,Card,Austin,iOS
+u40,51.25,expense,2025-11-08T09:56:18.513191,shopping,Card,Austin,iOS
+u40,79.84,expense,2025-11-25T05:19:55.513191,fuel,Card,Austin,Android
+u40,114.3,expense,2025-11-27T05:50:55.513191,fuel,Wallet,Austin,iOS
+u40,17.12,expense,2025-12-01T15:19:05.513191,transport,Card,Austin,Android
+u40,14.8,expense,2025-12-03T14:51:48.513191,dining,Bank Transfer,Austin,Web
+u40,35.14,expense,2025-12-05T19:20:05.513191,dining,Card,Austin,Android
+u40,13.15,expense,2025-12-09T07:35:05.513191,fees,ACH,Austin,Android
+u40,35.8,expense,2025-12-09T14:40:38.513191,mobile_topup,ACH,Austin,Web
+u40,20.57,expense,2025-12-09T17:14:23.513191,dining,Card,Austin,Android
+u40,105.7,income,2025-12-24T01:19:06.513191,task,ACH,Austin,iOS
+u40,164.92,expense,2025-12-27T06:48:31.513191,healthcare,Card,Austin,iOS
+u40,4.95,expense,2025-12-31T07:56:37.513191,groceries,Card,Austin,Web
+u40,16.49,expense,2026-01-03T12:30:28.513191,shopping,Card,Austin,Android
+u40,20.74,expense,2026-01-07T17:08:16.513191,shopping,Wallet,Austin,iOS
+u40,108.03,expense,2026-01-12T08:33:10.513191,subscriptions,Card,Austin,Web
+u40,111.06,income,2026-01-14T06:42:44.513191,task,Card,Austin,Android
+u40,33.42,expense,2026-02-07T14:06:36.513191,transport,Card,Austin,Web
+u40,115.08,income,2026-02-10T09:25:34.513191,rideshare,ACH,Austin,Android
+u40,1.13,expense,2026-02-13T13:31:44.513191,fees,Bank Transfer,Austin,iOS
+u40,103.68,expense,2026-02-20T05:57:42.513191,fuel,Bank Transfer,Austin,Android
+u40,10.8,expense,2026-02-20T23:27:23.513191,fees,Wallet,Austin,Web
+u40,15.47,expense,2026-02-25T07:18:33.513191,transport,Card,Austin,Web
+u40,188.52,expense,2026-03-03T12:48:04.513191,healthcare,Cash,Austin,Android
+u41,29.71,expense,2025-10-13T17:34:20.513191,mobile_topup,Wallet,Seattle,Android
+u41,101.17,income,2025-11-23T13:03:51.513191,delivery,Cash,Seattle,Web
+u41,14.74,expense,2025-11-24T21:11:27.513191,dining,Card,Seattle,Android
+u41,46.83,expense,2025-12-11T05:34:16.513191,subscriptions,Card,Seattle,iOS
+u41,66.98,expense,2025-12-15T21:37:29.513191,shopping,Wallet,Seattle,Android
+u41,24.04,expense,2025-12-16T16:19:41.513191,mobile_topup,Card,Seattle,Web
+u41,100.03,expense,2025-12-28T16:27:18.513191,subscriptions,Card,Seattle,Android
+u41,170.92,expense,2026-01-05T10:02:18.513191,subscriptions,Wallet,Seattle,Android
+u41,24.65,expense,2026-01-07T18:34:48.513191,groceries,Card,Seattle,iOS
+u41,183.66,expense,2026-01-08T16:29:27.513191,healthcare,Card,Seattle,iOS
+u41,104.28,income,2026-01-17T14:06:18.513191,task,Bank Transfer,Seattle,Web
+u41,29.26,expense,2026-02-02T23:32:08.513191,transport,ACH,Seattle,iOS
+u41,36.02,expense,2026-02-20T18:55:23.513191,groceries,Bank Transfer,Seattle,Android
+u42,149.87,expense,2025-10-19T06:21:13.513191,healthcare,Bank Transfer,Austin,iOS
+u42,90.97,expense,2025-11-21T07:39:44.513191,shopping,Wallet,Austin,Android
+u42,186.69,expense,2025-12-07T19:14:29.513191,utilities,Card,Austin,iOS
+u42,14.46,expense,2025-12-09T00:45:00.513191,fees,Bank Transfer,Austin,Android
+u42,22.76,expense,2025-12-14T10:43:13.513191,mobile_topup,Bank Transfer,Austin,Android
+u42,64.06,expense,2025-12-18T08:37:28.513191,shopping,Card,Austin,Web
+u42,23.2,expense,2025-12-19T18:16:43.513191,dining,Card,Austin,iOS
+u42,40.76,expense,2025-12-23T14:38:57.513191,utilities,Card,Austin,Android
+u42,136.88,expense,2025-12-31T13:26:53.513191,healthcare,Wallet,Austin,Android
+u42,9.31,expense,2026-01-05T04:40:00.513191,dining,Card,Austin,iOS
+u42,129.42,expense,2026-01-06T13:08:11.513191,subscriptions,Card,Austin,iOS
+u42,49.03,expense,2026-01-11T20:05:04.513191,shopping,Card,Austin,Web
+u42,1.94,expense,2026-01-12T17:56:10.513191,fees,Cash,Austin,iOS
+u42,37.16,expense,2026-01-17T12:32:26.513191,dining,Wallet,Austin,Web
+u42,17.48,expense,2026-01-26T21:09:39.513191,fuel,Card,Austin,iOS
+u42,23.76,expense,2026-01-28T02:58:30.513191,groceries,Card,Austin,Web
+u42,105.91,expense,2026-02-18T23:11:13.513191,shopping,Card,Austin,Web
+u42,73.21,expense,2026-02-23T09:08:30.513191,shopping,Cash,Austin,iOS
+u43,23.42,expense,2025-10-10T20:21:48.513191,fees,Bank Transfer,NYC,iOS
+u43,91.6,income,2025-10-24T05:32:54.513191,delivery,ACH,NYC,Android
+u43,15.73,expense,2025-10-24T13:45:00.513191,dining,ACH,NYC,iOS
+u43,78.48,expense,2025-11-01T08:42:01.513191,fuel,Card,NYC,Android
+u43,26.02,expense,2025-11-04T09:53:30.513191,mobile_topup,Card,NYC,iOS
+u43,58.47,expense,2025-11-11T14:44:38.513191,fuel,Cash,NYC,iOS
+u43,49.39,expense,2025-11-15T08:41:51.513191,fuel,Card,NYC,iOS
+u43,37.67,expense,2025-11-16T06:53:37.513191,dining,Card,NYC,iOS
+u43,53.21,expense,2025-11-16T10:30:23.513191,subscriptions,ACH,NYC,Android
+u43,100.9,income,2025-11-21T14:07:37.513191,task,ACH,NYC,Android
+u43,122.26,income,2025-12-06T15:18:26.513191,task,Card,NYC,Android
+u43,12.46,expense,2025-12-09T22:48:41.513191,fees,ACH,NYC,Android
+u43,13.73,expense,2025-12-13T12:17:23.513191,dining,Cash,NYC,iOS
+u43,15.92,expense,2025-12-27T11:47:28.513191,fuel,Card,NYC,Web
+u43,37.47,expense,2025-12-28T21:21:51.513191,fuel,Card,NYC,Android
+u43,51.85,expense,2025-12-29T01:19:43.513191,fuel,Card,NYC,iOS
+u43,35.79,expense,2026-01-11T06:14:10.513191,mobile_topup,Card,NYC,Android
+u43,117.16,expense,2026-01-18T11:47:03.513191,subscriptions,Wallet,NYC,Android
+u43,64.86,expense,2026-01-21T12:42:19.513191,subscriptions,Wallet,NYC,iOS
+u43,95.03,expense,2026-02-01T16:33:29.513191,shopping,ACH,NYC,iOS
+u43,104.44,income,2026-02-05T08:57:58.513191,tip,Cash,NYC,iOS
+u43,180.76,expense,2026-02-11T21:30:17.513191,subscriptions,Card,NYC,Web
+u43,81.69,expense,2026-02-18T10:16:19.513191,shopping,Card,NYC,Android
+u43,188.95,expense,2026-02-26T12:23:03.513191,healthcare,ACH,NYC,iOS
+u43,39.7,expense,2026-03-01T16:34:19.513191,transport,Card,NYC,Android
+u44,14.19,expense,2025-10-18T20:15:48.513191,dining,Wallet,Boston,Web
+u44,94.32,expense,2025-10-20T09:34:29.513191,shopping,Card,Boston,iOS
+u44,57.76,expense,2025-10-24T16:02:44.513191,subscriptions,Card,Boston,Web
+u44,23.02,expense,2025-10-26T05:15:03.513191,dining,Wallet,Boston,Android
+u44,28.12,expense,2025-11-03T07:06:15.513191,mobile_topup,Cash,Boston,iOS
+u44,127.16,expense,2025-11-04T13:59:35.513191,utilities,Card,Boston,iOS
+u44,12.12,expense,2025-11-18T08:30:29.513191,transport,Card,Boston,iOS
+u44,111.35,expense,2025-12-16T15:59:51.513191,shopping,Cash,Boston,iOS
+u44,4.06,expense,2026-01-14T17:11:23.513191,transport,Card,Boston,Android
+u44,104.89,income,2026-01-16T10:16:42.513191,delivery,Card,Boston,Android
+u44,73.08,expense,2026-01-22T06:14:39.513191,subscriptions,Wallet,Boston,iOS
+u44,83.3,income,2026-01-24T18:57:55.513191,task,Card,Boston,iOS
+u44,96.04,income,2026-02-15T02:23:59.513191,tip,ACH,Boston,iOS
+u44,22.65,expense,2026-03-02T21:54:09.513191,mobile_topup,Wallet,Boston,Android
+u45,3.02,expense,2025-10-12T11:36:51.513191,dining,Cash,Miami,iOS
+u45,124.47,income,2025-10-26T18:34:36.513191,freelance,Bank Transfer,Miami,iOS
+u45,108.64,expense,2025-11-03T20:53:52.513191,utilities,Card,Miami,Web
+u45,132.85,expense,2025-11-05T06:52:46.513191,healthcare,Card,Miami,iOS
+u45,126.5,expense,2025-11-07T12:01:41.513191,healthcare,ACH,Miami,Android
+u45,100.07,expense,2025-11-08T12:45:31.513191,shopping,ACH,Miami,iOS
+u45,65.32,expense,2025-11-15T17:57:39.513191,healthcare,Bank Transfer,Miami,Android
+u45,123.36,income,2025-11-24T09:02:20.513191,task,Wallet,Miami,iOS
+u45,3.64,expense,2025-11-27T23:45:55.513191,dining,Card,Miami,Web
+u45,112.96,income,2025-12-03T23:39:48.513191,rideshare,Wallet,Miami,Web
+u45,91.92,expense,2025-12-04T16:09:40.513191,shopping,Cash,Miami,Android
+u45,34.42,expense,2025-12-05T11:31:47.513191,transport,Cash,Miami,Android
+u45,125.97,expense,2025-12-21T05:04:48.513191,utilities,Cash,Miami,iOS
+u45,20.74,expense,2026-01-08T16:37:57.513191,mobile_topup,Card,Miami,iOS
+u45,39.03,expense,2026-01-24T08:30:23.513191,mobile_topup,ACH,Miami,Android
+u45,20.47,expense,2026-02-06T07:03:40.513191,fuel,ACH,Miami,iOS
+u45,105.32,expense,2026-02-09T13:28:14.513191,fuel,Cash,Miami,iOS
+u45,121.87,income,2026-02-11T23:07:57.513191,freelance,Bank Transfer,Miami,Android
+u45,120.19,income,2026-02-16T16:50:27.513191,task,Bank Transfer,Miami,Android
+u45,20.13,expense,2026-02-16T19:07:12.513191,fees,ACH,Miami,Android
+u45,135.4,income,2026-02-23T09:50:21.513191,freelance,Card,Miami,Android
+u46,39.37,expense,2025-10-15T15:39:37.513191,mobile_topup,ACH,San Francisco,iOS
+u46,147.12,income,2025-10-22T06:17:01.513191,freelance,Wallet,San Francisco,iOS
+u46,45.85,expense,2025-10-24T04:21:44.513191,fuel,ACH,San Francisco,iOS
+u46,17.84,expense,2025-10-30T17:13:52.513191,transport,Cash,San Francisco,Android
+u46,160.17,income,2025-10-31T07:33:01.513191,tip,Wallet,San Francisco,iOS
+u46,20.42,expense,2025-11-05T15:31:22.513191,healthcare,Card,San Francisco,Web
+u46,11.31,expense,2025-11-09T08:42:41.513191,fees,ACH,San Francisco,iOS
+u46,92.5,expense,2025-11-10T04:58:39.513191,utilities,Bank Transfer,San Francisco,iOS
+u46,72.96,expense,2025-12-04T04:16:01.513191,shopping,Card,San Francisco,Android
+u46,6.73,expense,2025-12-07T10:23:49.513191,transport,Cash,San Francisco,Android
+u46,21.82,expense,2025-12-10T04:41:37.513191,groceries,ACH,San Francisco,Android
+u46,33.0,expense,2025-12-31T05:22:57.513191,dining,Card,San Francisco,Android
+u46,7.33,expense,2026-01-07T14:59:44.513191,mobile_topup,Bank Transfer,San Francisco,iOS
+u46,19.06,expense,2026-01-09T10:43:38.513191,groceries,ACH,San Francisco,iOS
+u46,22.48,expense,2026-01-11T20:21:38.513191,fees,Card,San Francisco,Android
+u46,204.61,income,2026-01-13T01:32:32.513191,freelance,ACH,San Francisco,Android
+u46,18.54,expense,2026-01-19T09:07:21.513191,fees,Cash,San Francisco,Android
+u46,189.0,income,2026-01-19T20:09:45.513191,task,Bank Transfer,San Francisco,Web
+u46,20.09,expense,2026-01-24T20:14:15.513191,dining,Wallet,San Francisco,iOS
+u46,68.53,expense,2026-01-25T14:06:04.513191,healthcare,Card,San Francisco,iOS
+u46,10.59,expense,2026-02-05T03:53:41.513191,transport,Bank Transfer,San Francisco,Web
+u46,5.06,expense,2026-02-12T10:42:19.513191,fees,Card,San Francisco,Android
+u46,176.66,expense,2026-02-13T14:51:32.513191,utilities,Card,San Francisco,Android
+u46,13.09,expense,2026-02-23T11:15:29.513191,groceries,Card,San Francisco,Web
+u47,154.85,income,2025-10-23T15:10:24.513191,rideshare,Bank Transfer,Houston,Android
+u47,3.38,expense,2025-10-29T00:33:59.513191,mobile_topup,ACH,Houston,iOS
+u47,175.14,income,2025-11-01T06:27:20.513191,task,Card,Houston,Web
+u47,23.59,expense,2025-11-06T15:49:50.513191,shopping,Bank Transfer,Houston,iOS
+u47,157.04,income,2025-11-25T03:14:56.513191,tip,Card,Houston,Web
+u47,38.61,expense,2025-11-27T01:00:02.513191,groceries,Bank Transfer,Houston,Android
+u47,155.22,income,2025-11-27T01:07:43.513191,freelance,Cash,Houston,iOS
+u47,168.83,income,2025-12-02T14:01:52.513191,delivery,Bank Transfer,Houston,Android
+u47,29.54,expense,2025-12-04T03:51:06.513191,transport,Card,Houston,Web
+u47,3.56,expense,2025-12-08T16:50:29.513191,groceries,Card,Houston,iOS
+u47,172.18,income,2025-12-27T06:55:21.513191,freelance,ACH,Houston,iOS
+u47,175.29,income,2026-01-07T12:28:16.513191,tip,Wallet,Houston,Android
+u47,23.57,expense,2026-01-12T01:57:45.513191,subscriptions,Card,Houston,Android
+u47,38.15,expense,2026-01-13T15:14:02.513191,mobile_topup,ACH,Houston,Android
+u47,73.07,expense,2026-01-16T18:35:30.513191,shopping,Bank Transfer,Houston,Android
+u47,25.08,expense,2026-02-01T18:39:40.513191,groceries,Card,Houston,Android
+u47,37.33,expense,2026-02-01T21:21:31.513191,transport,Card,Houston,Web
+u47,2.7,expense,2026-02-17T15:13:58.513191,fees,Card,Houston,Android
+u47,156.05,income,2026-02-21T11:52:53.513191,freelance,ACH,Houston,Android
+u47,178.01,expense,2026-02-21T13:27:33.513191,subscriptions,Wallet,Houston,Android
+u47,12.85,expense,2026-02-21T16:58:27.513191,transport,Wallet,Houston,Web
+u47,24.55,expense,2026-02-22T11:22:09.513191,dining,ACH,Houston,iOS
+u5,4.08,expense,2025-10-21T19:59:24.513191,groceries,ACH,Los Angeles,iOS
+u5,12.02,expense,2025-10-30T04:33:06.513191,groceries,ACH,Los Angeles,Android
+u5,9.54,expense,2025-11-01T00:37:49.513191,mobile_topup,Wallet,Los Angeles,Android
+u5,22.43,expense,2025-11-01T16:32:01.513191,utilities,ACH,Los Angeles,iOS
+u5,12.49,expense,2025-11-04T00:24:52.513191,fees,Card,Los Angeles,Android
+u5,33.37,expense,2025-11-05T09:32:21.513191,dining,Bank Transfer,Los Angeles,iOS
+u5,173.34,income,2025-11-13T18:37:55.513191,rideshare,Wallet,Los Angeles,Android
+u5,188.31,expense,2025-11-19T10:02:59.513191,subscriptions,Card,Los Angeles,Android
+u5,28.86,expense,2025-12-01T08:29:43.513191,mobile_topup,ACH,Los Angeles,Web
+u5,97.73,expense,2025-12-10T07:22:46.513191,healthcare,ACH,Los Angeles,Web
+u5,180.79,income,2025-12-12T13:51:12.513191,tip,ACH,Los Angeles,Web
+u5,29.92,expense,2025-12-12T14:19:08.513191,fuel,Card,Los Angeles,Android
+u5,38.96,expense,2025-12-16T10:19:59.513191,fuel,ACH,Los Angeles,Android
+u5,48.33,expense,2025-12-27T10:33:44.513191,fuel,Card,Los Angeles,iOS
+u5,13.96,expense,2026-01-03T09:20:30.513191,mobile_topup,ACH,Los Angeles,Android
+u5,3.88,expense,2026-01-19T06:15:27.513191,dining,Card,Los Angeles,iOS
+u5,37.0,expense,2026-01-20T15:43:10.513191,transport,Bank Transfer,Los Angeles,Android
+u5,102.21,expense,2026-01-25T03:14:13.513191,subscriptions,Card,Los Angeles,iOS
+u5,172.67,income,2026-01-29T18:54:00.513191,rideshare,ACH,Los Angeles,Android
+u5,17.55,expense,2026-02-04T22:04:56.513191,fees,ACH,Los Angeles,Android
+u5,59.99,expense,2026-02-10T09:29:12.513191,healthcare,Bank Transfer,Los Angeles,iOS
+u5,115.89,expense,2026-02-12T21:01:01.513191,fuel,Card,Los Angeles,Android
+u5,179.4,income,2026-02-27T10:47:36.513191,freelance,Cash,Los Angeles,Android
+u5,89.46,expense,2026-03-01T03:19:44.513191,healthcare,Card,Los Angeles,iOS
+u6,20.68,expense,2025-10-15T11:18:07.513191,mobile_topup,Card,Austin,Android
+u6,7.84,expense,2025-10-16T08:16:50.513191,groceries,Card,Austin,Android
+u6,112.0,income,2025-10-17T08:23:19.513191,rideshare,Card,Austin,Web
+u6,52.39,expense,2025-10-19T11:03:01.513191,subscriptions,Card,Austin,iOS
+u6,127.82,expense,2025-11-12T15:37:05.513191,utilities,Cash,Austin,Android
+u6,119.73,expense,2025-11-13T06:49:10.513191,fuel,Card,Austin,iOS
+u6,176.63,expense,2025-11-25T16:38:19.513191,healthcare,Bank Transfer,Austin,Android
+u6,15.73,expense,2025-11-28T04:55:23.513191,transport,Card,Austin,Web
+u6,1.98,expense,2026-01-05T19:39:23.513191,fees,Wallet,Austin,iOS
+u6,45.99,expense,2026-02-21T00:38:26.513191,healthcare,Wallet,Austin,iOS
+u7,65.64,expense,2025-10-15T15:12:20.513191,subscriptions,Card,Atlanta,Android
+u7,189.37,expense,2025-10-17T06:48:15.513191,subscriptions,Card,Atlanta,Web
+u7,106.57,income,2025-10-27T16:51:27.513191,delivery,Card,Atlanta,Android
+u7,6.99,expense,2025-10-28T13:30:21.513191,mobile_topup,ACH,Atlanta,Android
+u7,20.54,expense,2025-10-28T15:25:45.513191,fees,ACH,Atlanta,Android
+u7,28.6,expense,2025-10-30T13:22:11.513191,mobile_topup,Card,Atlanta,iOS
+u7,130.28,income,2025-11-01T07:41:17.513191,task,Bank Transfer,Atlanta,Android
+u7,90.17,expense,2025-11-05T10:45:28.513191,fuel,ACH,Atlanta,Web
+u7,137.92,income,2025-11-10T17:22:37.513191,freelance,Card,Atlanta,iOS
+u7,8.24,expense,2025-12-03T04:56:36.513191,dining,Card,Atlanta,Android
+u7,7.1,expense,2025-12-08T01:27:29.513191,fees,Card,Atlanta,iOS
+u7,20.52,expense,2025-12-15T07:27:13.513191,shopping,Card,Atlanta,Android
+u7,23.7,expense,2025-12-22T07:37:23.513191,transport,Cash,Atlanta,Android
+u7,152.53,income,2025-12-26T07:18:12.513191,rideshare,Bank Transfer,Atlanta,Web
+u7,21.97,expense,2025-12-26T14:00:41.513191,fees,ACH,Atlanta,Android
+u7,15.0,expense,2025-12-26T18:37:27.513191,groceries,Card,Atlanta,Web
+u7,5.46,expense,2025-12-28T11:23:46.513191,groceries,ACH,Atlanta,Android
+u7,192.04,expense,2026-01-04T03:31:08.513191,healthcare,Cash,Atlanta,iOS
+u7,8.03,expense,2026-01-09T14:58:00.513191,fees,Wallet,Atlanta,iOS
+u7,139.62,income,2026-01-12T22:57:09.513191,tip,Wallet,Atlanta,Android
+u7,13.71,expense,2026-01-17T15:36:54.513191,dining,Bank Transfer,Atlanta,iOS
+u7,14.7,expense,2026-01-17T19:40:17.513191,shopping,Cash,Atlanta,iOS
+u7,15.15,expense,2026-01-21T05:48:22.513191,subscriptions,ACH,Atlanta,iOS
+u7,34.37,expense,2026-01-27T14:20:26.513191,groceries,Bank Transfer,Atlanta,Android
+u7,13.51,expense,2026-02-07T12:35:19.513191,fuel,Wallet,Atlanta,Android
+u7,12.46,expense,2026-02-16T19:47:56.513191,transport,Bank Transfer,Atlanta,iOS
+u7,171.42,expense,2026-02-18T04:09:08.513191,healthcare,ACH,Atlanta,Android
+u7,38.02,expense,2026-03-01T17:35:09.513191,mobile_topup,Wallet,Atlanta,iOS
+u7,24.02,expense,2026-03-04T01:41:04.513191,groceries,Card,Atlanta,iOS
+u8,8.75,expense,2025-10-13T14:18:17.513191,mobile_topup,Wallet,Austin,iOS
+u8,150.99,income,2025-10-15T03:19:52.513191,rideshare,Cash,Austin,Android
+u8,48.76,expense,2025-11-23T12:19:04.513191,utilities,Wallet,Austin,Web
+u8,97.76,expense,2025-12-14T21:46:54.513191,utilities,Bank Transfer,Austin,Android
+u8,25.48,expense,2025-12-21T09:32:06.513191,dining,Wallet,Austin,iOS
+u8,24.24,expense,2025-12-30T00:34:58.513191,fees,Card,Austin,iOS
+u8,109.78,income,2026-01-26T08:49:58.513191,rideshare,Card,Austin,iOS
+u8,19.77,expense,2026-02-04T00:29:40.513191,fees,Card,Austin,Android
+u8,108.57,expense,2026-02-06T05:16:54.513191,fuel,Card,Austin,iOS
+u8,5.76,expense,2026-02-16T11:39:53.513191,fees,Cash,Austin,iOS
+u8,7.24,expense,2026-02-28T03:35:00.513191,transport,Card,Austin,iOS
+u9,3.93,expense,2025-10-10T06:13:38.513191,transport,Wallet,Chicago,iOS
+u9,78.81,income,2025-10-12T08:58:59.513191,tip,Card,Chicago,Android
+u9,1.68,expense,2025-10-14T13:00:45.513191,fees,Cash,Chicago,Web
+u9,166.2,expense,2025-10-22T09:27:52.513191,healthcare,ACH,Chicago,iOS
+u9,27.8,expense,2025-10-25T02:20:36.513191,subscriptions,Card,Chicago,Android
+u9,57.93,expense,2025-11-01T03:23:37.513191,shopping,Card,Chicago,iOS
+u9,55.99,expense,2025-11-16T12:03:11.513191,fuel,Card,Chicago,Web
+u9,4.75,expense,2025-11-20T00:07:40.513191,dining,Card,Chicago,Android
+u9,36.4,expense,2025-12-06T05:12:54.513191,utilities,Card,Chicago,iOS
+u9,12.76,expense,2025-12-14T22:25:16.513191,dining,Card,Chicago,Android
+u9,16.01,expense,2025-12-27T05:15:07.513191,groceries,Card,Chicago,iOS
+u9,31.47,expense,2025-12-30T20:10:43.513191,subscriptions,Card,Chicago,iOS
+u9,15.01,expense,2026-01-03T12:22:25.513191,fees,Bank Transfer,Chicago,iOS
+u9,28.8,expense,2026-01-10T09:57:33.513191,dining,Cash,Chicago,Android
+u9,93.91,expense,2026-01-13T05:22:13.513191,subscriptions,ACH,Chicago,iOS
+u9,5.37,expense,2026-01-17T10:39:54.513191,mobile_topup,Cash,Chicago,iOS
+u9,31.78,expense,2026-01-18T05:36:13.513191,mobile_topup,Cash,Chicago,Web
+u9,126.11,expense,2026-02-02T20:21:29.513191,utilities,Bank Transfer,Chicago,Web
+u9,156.02,expense,2026-02-11T15:10:29.513191,subscriptions,Wallet,Chicago,iOS
+u9,10.59,expense,2026-02-12T19:26:11.513191,groceries,ACH,Chicago,Android
+u9,79.98,expense,2026-02-24T09:51:53.513191,shopping,Card,Chicago,Android
+u9,5.63,expense,2026-03-02T12:35:58.513191,mobile_topup,Card,Chicago,iOS
+u9,19.11,expense,2026-03-03T22:52:38.513191,groceries,Card,Chicago,Android
